@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+li {
+    padding: 14px 0px 11px 16px;
+    font-weight: 700;
+    color: #AAAAAA;
+}
+
+ul li:hover {
+    background-color: #5C5C5C;
+    color: #FFFFFF;
+    cursor: default;
+}
+
+article {
+    text-align: center;
+    margin-top: 30px;
+    background: #EFEFEF;
+    margin-bottom: 40px;
+}
+
+article p {
+    padding: 0px 150px;
+    margin-bottom: 38px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-top: 38px;
+    margin-bottom: 18px;
+}
+
+section .icon {
+    float: left;
+    width: 128px;
+    height: 128px;
+    margin-right: 16px;
+
+}
+
+footer {
+    color: #3E3E3E;
+    text-align: start;
+    margin-top: 182px;
+    padding: 30px 0;
+    border-top: 1px solid #5C5C5C;
+    margin-left: 150px;
+    padding-left: 129px;
+    padding-right: 129px;
+    font-weight: 400;
+}
+
+.sidebar {
+    min-width: 150px;
+    height: 935px;
+    color: white;
+    background: #191718;
+    position: fixed;
+}
+
+.active {
+    color: #FFFFFF;
+}
+
+.bd-t-gray {
+    border-top: 1px solid #5C5C5C;
+}
+
+.bd-b-gray {
+    border-bottom: 1px solid #5C5C5C;
+}
+
+.main-container {
+    margin-left: 150px;
+    padding-left: 129px;
+    padding-right: 129px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.title {
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+
+    }
+
+    .main-container {
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    footer {
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    article p {
+        padding: 0px 10px;
+        margin-bottom: 38px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-container {
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    footer {
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    article p {
+        padding: 0px 10px;
+        margin-bottom: 38px;
+    }
+}
